@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CaptionOption: Identifiable, Hashable{
+struct CaptionOption: Identifiable{
     var id: UUID = UUID()
     var emoji:String
     var caption: String
